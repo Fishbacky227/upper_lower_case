@@ -1,0 +1,49 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  height: 100vh;
+}
+
+.container{
+  background-color: cyan;
+  text-align: center;
+  border: solid black;
+  border-radius: 50px;
+  border-width: 3px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 500px;
+}
+h1{
+  font-size: 28px;
+}
+#submit{
+  margin-top: 10px;
+  border: solid black;
+  border-radius: 5px;
+  border-width: 2px;
+}
+
+#submit:hover{
+  transition: 1s;
+  border: solid blue;
+  border-radius: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: black;
+}
+
+#textbox{
+  width: 100px;
+  border: solid black;
+  border-width: 2px;
+  border-radius: 25px;
+}
+#textbox:hover{
+  transition: 0.5s;
+  border: solid blue;
+}
